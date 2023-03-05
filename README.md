@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='' width='' alt='Video Walkthrough' />
+<img src='./src/assets/Walkthrough.gif' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ShareX  
@@ -42,7 +42,8 @@ GIF created with ShareX
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+- One challenge I faced was trying to figure how to start the project. I had no idea where to begin. In order to understand what I have to do, I started to break things down to see what kind of components will be needed and where they need to be placed.
+- The main challenge I encountered was trying to change to the next card. I have useState set up to change to the next index of the array with the data. However, when trying to change to a random card, the data either didn't change since the state of the variable didn't change or the only change after I flip the card. To fix this problem, I decided to use useEffect to check for the changes. This way, the data will sync when changing to the next card.
 
 ## License
 
